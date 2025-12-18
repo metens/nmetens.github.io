@@ -12,7 +12,8 @@ html {
   color: black;
 
   /* Mountain Background: */
-  background-image: url("../images/mountain2.jpg");
+  /*background-image: url("../images/mountain2.jpg");*/
+  background-color: rgb(59,59,59);
 
   /* Center and scale the image nicely: */
   background-attachment: fixed;

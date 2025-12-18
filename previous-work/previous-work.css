@@ -64,11 +64,25 @@ h5.modal-title {
 /* Create a grid of buttons to easily organize them: */
 .button-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Three columns */
+  grid-template-columns: repeat(3, 1fr); 
   gap: 10px;
   margin: auto;
   padding: 20px;
 }
+/*
+.button-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn-fixed {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  height: 48px;
+}*/
+
 
 /* The resume button is placed in the second column (middle) and first row: */
 .resume {
